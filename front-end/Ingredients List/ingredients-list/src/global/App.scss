@@ -1,0 +1,18 @@
+@import '../_variables.scss';
+
+.main-ingredients-container {
+  color: $essential-blue;
+}
+
+.main-ingredients-container {
+  .main-header {
+    text-align: center;
+    width: 100%;
+  }
+  .ingredients-list-container {
+    border-right: 1px solid $essential-blue;
+  }
+  .main-content {
+    margin-top: 5rem;
+  }
+}

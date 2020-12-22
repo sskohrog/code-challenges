@@ -1,0 +1,22 @@
+@import '../_variables.scss';
+
+.ingredient-item {
+  .ingredient-name {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .dosage {
+    color: $light-blue;
+  }
+  .carat-container {
+    display: flex;
+    align-items: center;
+  }
+  &.selected,
+  &:hover {
+    background-color: $essential-blue;
+    color: #fff !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
